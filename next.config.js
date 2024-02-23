@@ -6,7 +6,14 @@ const nextConfig = {
     swcMinify: false,
   },
   images: {
+    domains: ['easymarket.s3.ap-northeast-1.amazonaws.com'],
     remotePatterns: [
+      {
+        protocol: 'http',
+        hostname: 'easy-market-kawa.com',
+        port: '',
+        pathname: '/storage/images/**',
+      },
       {
         protocol: "https",
         hostname: "images.pexels.com",

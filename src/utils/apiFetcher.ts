@@ -5,7 +5,8 @@ import getCsrfToken from './getCsrfToken';
 import getCookieValue from './getCookieValue';
 import { LOCAL_STORAGE_ACCESS_TOKEN_KEY } from '@/types/localStorageKeys';
 
-export const apiRootUrl = process.env.NEXT_PUBLIC_API_BASE_PATH || 'http://localhost:3000'
+// export const apiRootUrl = process.env.NEXT_PUBLIC_API_BASE_PATH || 'http://localhost:3000'
+export const apiRootUrl = 'http://easy-market-kawa.com/easymarket/api'
 
 export const apiFetcher = async (
     resource: RequestInfo,
