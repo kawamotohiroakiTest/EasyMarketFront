@@ -27,14 +27,14 @@ const nextConfig = {
       },
     ],
   },
-  async rewrites() {
-    return [
-      {
-        source: '/easymarket/api/:path*',
-        destination: '/api/:path*', // Proxy to Backend
-      },
-    ]
-  },
+  // async rewrites() {
+  //   return [
+  //     {
+  //       source: '/easymarket/api/:path*',
+  //       destination: '/api/:path*', // Proxy to Backend
+  //     },
+  //   ]
+  // },
 };
 
 module.exports = nextConfig;
