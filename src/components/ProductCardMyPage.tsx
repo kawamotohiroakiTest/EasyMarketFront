@@ -40,7 +40,7 @@ const ProductCardMyPage: FC<ProductCardProps> = ({
             <Link href={urlObject} as={urlObject} passHref>
               <NcImage
                 containerClassName="flex aspect-w-11 aspect-h-12 w-full h-0"
-                src={`${process.env.NEXT_PUBLIC_BASE_URL}/${product.imageUrl}`}
+                src={`${product.imageUrl}`}
                 className="object-cover w-full h-full drop-shadow-xl"
                 fill
                 sizes="(max-width: 640px) 100vw, (max-width: 1200px) 50vw, 40vw"
