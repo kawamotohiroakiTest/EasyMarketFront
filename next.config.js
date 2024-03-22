@@ -10,7 +10,7 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: 'http',
-        hostname: 'easy-market-kawa.com',
+        hostname: 'test.laravel-matching.com',
         port: '',
         pathname: '/storage/images/**',
       },
